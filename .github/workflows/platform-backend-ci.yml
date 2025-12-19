@@ -1,6 +1,7 @@
 name: AutoGPT Platform - Backend CI
 
 on:
+  workflow_dispatch:
   push:
     branches: [master, dev, ci-test*]
     paths:

@@ -4,6 +4,7 @@ name: AutoGPT Platform - Backend Security CI
 # It only runs on merge to master to avoid the 3-5 minute ClamAV startup time on every PR.
 
 on:
+  workflow_dispatch:
   push:
     branches: [master]
     paths:
